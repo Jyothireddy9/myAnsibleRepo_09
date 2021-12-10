@@ -7,17 +7,17 @@
     apt:
       name: git
       state: present
-  -name: i want to install tree
+  - name: i want to install tree
     apt: 
       name: tree
       state: present
 
-  -name: i want to install webserver
+  - name: i want to install webserver
    apt:
      name: apache2
      state: present
   
-  -name: i want to start my webserver
+  - name: i want to start my webserver
    service:
       name: apache2
       start: started
