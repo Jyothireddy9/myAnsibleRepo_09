@@ -13,11 +13,11 @@
       state: present
 
   - name: i want to install webserver
-   apt:
+    apt:
      name: apache2
      state: present
   
   - name: i want to start my webserver
-   service:
+    service:
       name: apache2
       start: started

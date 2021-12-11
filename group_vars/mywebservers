@@ -2,5 +2,7 @@
 mywebpackageonubuntu:apache2
 mywebpackageonredhat:httpd
 
+myjavaonubuntu:apt-get install openjdk-8-jre
+myjavaonredhat:"yum install java-1.8.0-openjdk"
 
 
