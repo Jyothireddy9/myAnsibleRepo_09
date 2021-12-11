@@ -1,0 +1,16 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - name: install java on ubuntu 16 nodes
+    apt:
+      name: apt-get install openjdk-8-jre
+      state: present
+    when: ansible_os_family=="debian"
+    
+  - name: install java on red hat 8 nodes
+    yum:
+      name: "yum install java-1.8.0-openjdk"
+      state: present
+    when: ansible_os_family=="redhat"
+
