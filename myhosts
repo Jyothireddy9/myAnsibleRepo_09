@@ -1,9 +1,0 @@
-my webserver
-172.31.47.23
-172.31.47.79
-my webserver
-172.31.47.23
-172.31.47.79
-[mywebservers:vars]
-mywebpackageonubuntu=apache2
-mywebpackageonredhat=httpd

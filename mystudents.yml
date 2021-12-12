@@ -1,0 +1,13 @@
+---
+mystudents:
+- name: ravi
+  phno: 7777
+  email: ravi@gmail.com
+   
+- name: yashu
+  phno: 9999
+  email: yashu@gmail.com
+
+- name: pinky
+  phno: 8888
+  email: pinky@gmail.com
