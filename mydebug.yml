@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.3.174
+  become: yes
+  tasks:
+  - name: i want to execute linux command directory
+  command: hostname -f
+
+   
+
